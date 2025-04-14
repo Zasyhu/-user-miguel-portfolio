@@ -1,4 +1,3 @@
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +5,12 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Estilo do corpo da página */
 body {
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
 }
 
-/* Cabeçalho */
 header {
     padding: 40px 20px;
     background-color: #007bff;
@@ -23,7 +20,6 @@ header {
     animation: fadeInUp 0.8s ease forwards;
 }
 
-/* Imagem de perfil (com correção no corte) */
 .perfil-img {
     width: 150px;
     height: 150px;
@@ -31,18 +27,16 @@ header {
     border: 4px solid white;
     margin-top: 10px;
     object-fit: cover;
-    object-position: center top; /* <- Ajuste para evitar corte no rosto */
+    object-position: center top; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover na imagem de perfil */
 .perfil-img:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-/* Navegação */
 nav {
     background-color: #0056b3;
     padding: 10px;
@@ -73,14 +67,12 @@ nav ul li a {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover nos links do menu */
 nav ul li a:hover {
     background: white;
     color: #0056b3;
     transform: scale(1.1);
 }
 
-/* Seções */
 section {
     max-width: 800px;
     margin: 40px auto;
@@ -96,19 +88,16 @@ section {
     animation-fill-mode: forwards;
 }
 
-/* Hover nas seções */
 section:hover {
     transform: scale(1.02);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Títulos com destaque */
 h1, h2 {
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* Projetos */
 .projeto {
     background-color: #eee;
     padding: 15px;
@@ -119,13 +108,11 @@ h1, h2 {
     box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
 }
 
-/* Hover nos projetos */
 .projeto:hover {
     background: #ddd;
     transform: translateX(10px);
 }
 
-/* Botões */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -137,13 +124,11 @@ h1, h2 {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover nos botões */
 .btn:hover {
     background: #0056b3;
     transform: scale(1.1);
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 10px;
@@ -158,12 +143,10 @@ footer {
     animation-fill-mode: forwards;
 }
 
-/* Hover no rodapé */
 footer:hover {
     background: #0056b3;
 }
 
-/* Animação de entrada */
 @keyframes fadeInUp {
     to {
         opacity: 1;
@@ -171,7 +154,6 @@ footer:hover {
     }
 }
 
-/* Responsividade */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
